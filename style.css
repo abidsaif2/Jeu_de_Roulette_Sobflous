@@ -26,7 +26,7 @@ body{
     height: 100%;
     position:relative;
     border-radius: 50%;
-    border : 10px solid #fff;
+    border : 5px solid  #FFCC05;
     overflow: hidden;
 }
 
@@ -39,19 +39,19 @@ span{
 
 .span1{
     clip-path: polygon(0 92%, 100% 50% , 0 8%);
-    background-color:   black;
+    background-color:   #FFCC05;
     top: 120px;
     left: 0;
 }
 .span2{
     clip-path: polygon(100% 92%, 0 50% , 100% 8%);
-    background-color:  #593772;  ;
+    background-color:  #FFCC05  ;
     top: 120px;
     right: 0;
 }
 .span3{
     clip-path: polygon(50% 0%, 8% 100% , 92% 100%);
-    background-color:   #FFFFFF ;
+    background-color:   #FFCC05 ;
     bottom: 0px;
     left: 120px;
 }
@@ -75,10 +75,22 @@ span b{
     border-radius: 50%;
     font-size: 26px;
     text-align: center;
-    background-color: #fff;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    left: 35%;
     transform: (-50% , -50%);
-    box-shadow: inset 0 1px 1px 0 #717171;
+}
+
+.spin{
+    position: absolute;
+    bottom: 40%;
+    top:42%;
+    left:43%;
+    transform: translate(-50% -50%);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-color:#FFCC05 ;
+    box-shadow: 0 5px 20px #000;
 }
